@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css"
 // import icons
 import { BiLogoMediumOld } from 'react-icons/bi'

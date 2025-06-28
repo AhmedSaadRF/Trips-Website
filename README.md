@@ -17,3 +17,4 @@ If you are developing a production application, we recommend using TypeScript wi
 1_Finish App.  
 2_Add App Default Style.  
 3_Finish NavBar Section.  
+4_Finish NavBar Section Style.  

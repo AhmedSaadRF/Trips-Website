@@ -20,4 +20,6 @@ If you are developing a production application, we recommend using TypeScript wi
 4_Finish NavBar Section Style.  
 5_Finish Home Section.  
 6_Finish Home Section Style.  
+7_Finish Middle Section.  
+
 

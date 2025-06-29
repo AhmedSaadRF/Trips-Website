@@ -22,6 +22,8 @@ If you are developing a production application, we recommend using TypeScript wi
 6_Finish Home Section Style.  
 7_Finish Middle Section.  
 8_Finish Middle Section Style.  
+9_Finish Destinations Section.  
+
 
 
 

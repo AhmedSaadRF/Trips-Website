@@ -26,6 +26,8 @@ If you are developing a production application, we recommend using TypeScript wi
 10_Finish Destinations Section Style.  
 11_Finish Portifolio Section.  
 12_Finish Portifolio Section Style.  
+13_Finish Reviews Section.  
+
 
 
 

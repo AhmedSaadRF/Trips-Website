@@ -14,8 +14,8 @@ function App() {
       <Navbar />
       <Home />
       <Middle /> 
-      {/* <Destinations />
-      <Portifolio />
+      <Destinations />
+      {/* <Portifolio />
       <Reviews />
       <Questions />
       <Subscribe />

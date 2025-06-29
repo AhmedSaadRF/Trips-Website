@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Reviews.css"
 import { AiFillStar } from 'react-icons/ai'
-import image1 from '../../Assets/clientA.jpg'
-import image2 from '../../Assets/clientA.jpg'
-import image3 from '../../Assets/clientA.jpg'
-import image4 from '../../Assets/clientA.jpg'
+import image1 from '../../Assets/clientA.webp'
+import image2 from '../../Assets/clientA.webp'
+import image3 from '../../Assets/clientA.webp'
+import image4 from '../../Assets/clientA.webp'
 import image5 from '../../Assets/client.jpg'
 
 export default function Reviews() {

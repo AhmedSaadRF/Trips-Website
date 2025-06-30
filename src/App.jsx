@@ -19,7 +19,7 @@ function App() {
       <Reviews />
       <Questions />
       <Subscribe />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

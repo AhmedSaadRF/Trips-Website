@@ -18,8 +18,8 @@ function App() {
       <Portifolio />
       <Reviews />
       <Questions />
-      {/* <Subscribe />
-      <Footer /> */}
+      <Subscribe />
+      {/* <Footer /> */}
     </div>
   )
 }

@@ -31,7 +31,7 @@ If you are developing a production application, we recommend using TypeScript wi
 15_Finish Questions Section.  
 16_Finish Questions Section Style.  
 17_Finish Subscribe Section.  
-
+18_Finish Subscribe Section Style.  
 
 
 

@@ -33,7 +33,7 @@ If you are developing a production application, we recommend using TypeScript wi
 17_Finish Subscribe Section.  
 18_Finish Subscribe Section Style.  
 19_Finish Footer Section.  
-
+20_Finish Footer Section Style.  
 
 
 

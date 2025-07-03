@@ -28,8 +28,13 @@ If you are developing a production application, we recommend using TypeScript wi
 12_Finish Portifolio Section Style.  
 13_Finish Reviews Section.  
 14_Finish Reviews Section Style.  
-
-
+15_Finish Questions Section.  
+16_Finish Questions Section Style.  
+17_Finish Subscribe Section.  
+18_Finish Subscribe Section Style.  
+19_Finish Footer Section.  
+20_Finish Footer Section Style.  
+21_Finish NavBar Section Media Quiries Style.  
 
 
 

@@ -13,6 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Steps to Create Project
 
+
 *_Upload Start Up Project Files.  
 1_Finish App.  
 2_Add App Default Style.  

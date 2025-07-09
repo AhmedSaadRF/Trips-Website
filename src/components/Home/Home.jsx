@@ -3,6 +3,10 @@ import "./Home.css"
 
 // Imported Assets
 import video from '../../Assets/video.mp4'
+import image1 from '../../Assets/img1.jpg'
+import image2 from '../../Assets/img2.jpg'
+import image3 from '../../Assets/img3.jpg'
+import image4 from '../../Assets/img4.jpg'
 // Imported Icons
 import { AiOutlineSwapRight } from 'react-icons/ai'
 
@@ -26,10 +30,10 @@ export default function Home() {
         <div className="content">
           <h3>Popular Places</h3>
           <div className='images flex'>
-            {/* <img src="" alt="" /> */}
-            {/* <img src="" alt="" /> */}
-            {/* <img src="" alt="" /> */}
-            {/* <img src="" alt="" /> */}
+            <img src={image1} alt="Destination Images" />
+            <img src={image2} alt="Destination Images" />
+            <img src={image3} alt="Destination Images" />
+            <img src={image4} alt="Destination Images" />
           </div>
         </div>
       </div>

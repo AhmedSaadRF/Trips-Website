@@ -5,7 +5,7 @@ import image from '../../Assets/pngwing.com.png'
 export default function Subscribe() {
   return (
     <div className='subscribe section container'>
-      <div className="secContainer grid">
+      <div className="secContainer6 grid">
         <img src={image} alt="Div Image" />
         <div className="textDiv">
           <h4>Best Way To Start Your Journey!</h4>

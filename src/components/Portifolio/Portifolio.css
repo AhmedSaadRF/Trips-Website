@@ -19,116 +19,116 @@
   --borderRadius: 3rem;
 }
 
-.portifolio .secContainer {
+.portifolio .secContainer3 {
   gap: 2rem;
 }
-.portifolio .secContainer .leftContent .grid .singlePortifolio {
+.portifolio .secContainer3 .leftContent .grid .singlePortifolio {
   gap: 1rem;
   align-items: flex-start;
 }
-.portifolio .secContainer .leftContent .grid .singlePortifolio .iconDiv img {
+.portifolio .secContainer3 .leftContent .grid .singlePortifolio .iconDiv img {
   height: 50px;
   width: 50px;
 }
-.portifolio .secContainer .leftContent .grid .singlePortifolio .infor h4 {
+.portifolio .secContainer3 .leftContent .grid .singlePortifolio .infor h4 {
   padding-bottom: 0.5rem;
 }
-.portifolio .secContainer .rightContent {
+.portifolio .secContainer3 .rightContent {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.portifolio .secContainer .rightContent img {
+.portifolio .secContainer3 .rightContent img {
   height: 430px;
   width: 280px;
   border-radius: 10rem;
 }
 
 @media screen and (min-width: 480px) {
-  .portifolio .secContainer {
+  .portifolio .secContainer3 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .portifolio .secContainer .leftContent .secHeading h3 {
+  .portifolio .secContainer3 .leftContent .secHeading h3 {
     font-size: var(--h2FontSize);
   }
-  .portifolio .secContainer .leftContent .secHeading p {
+  .portifolio .secContainer3 .leftContent .secHeading p {
     font-size: var(--normalFontSize);
     padding: 0.5rem 0;
   }
-  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+  .portifolio .secContainer3 .leftContent .grid .singlePortifolio {
     gap: 1.5rem;
   }
-  .portifolio .secContainer .leftContent .grid .singlePortifolio .iconDiv img {
+  .portifolio .secContainer3 .leftContent .grid .singlePortifolio .iconDiv img {
     height: 60px;
     width: 60px;
   }
-  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor h4 {
+  .portifolio .secContainer3 .leftContent .grid .singlePortifolio .infor h4 {
     padding-bottom: 0.5rem;
     font-size: var(--h3FontSize);
   }
-  .portifolio .secContainer .leftContent .grid .singlePortifolio .infor p {
+  .portifolio .secContainer3 .leftContent .grid .singlePortifolio .infor p {
     font-size: var(--normalFontSize);
   }
 }
 @media screen and (min-width: 660px) {
-  .portifolio .secContainer .leftContent .secHeading h3 {
+  .portifolio .secContainer3 .leftContent .secHeading h3 {
     font-size: 2rem;
   }
-  .portifolio .secContainer .leftContent .secHeading p {
+  .portifolio .secContainer3 .leftContent .secHeading p {
     font-size: var(--h3FontSize);
   }
-  .portifolio .secContainer .leftContent .grid {
+  .portifolio .secContainer3 .leftContent .grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+  .portifolio .secContainer3 .leftContent .grid .singlePortifolio {
     gap: 1.5rem;
   }
-  .portifolio .secContainer .rightContent {
+  .portifolio .secContainer3 .rightContent {
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .portifolio .secContainer .rightContent img {
+  .portifolio .secContainer3 .rightContent img {
     margin: auto;
     max-width: 80%;
   }
 }
 @media screen and (min-width: 820px) {
-  .portifolio .secContainer {
+  .portifolio .secContainer3 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .portifolio .secContainer .leftContent .secHeading h3 {
+  .portifolio .secContainer3 .leftContent .secHeading h3 {
     font-size: var(--h2FontSize);
   }
-  .portifolio .secContainer .leftContent .secHeading p {
+  .portifolio .secContainer3 .leftContent .secHeading p {
     font-size: var(--h3FontSize);
   }
-  .portifolio .secContainer .leftContent .grid {
+  .portifolio .secContainer3 .leftContent .grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+  .portifolio .secContainer3 .leftContent .grid .singlePortifolio {
     gap: 1.5rem;
   }
-  .portifolio .secContainer .rightContent img {
+  .portifolio .secContainer3 .rightContent img {
     max-width: 100%;
   }
 }
 @media screen and (min-width: 1240px) {
-  .portifolio .secContainer {
+  .portifolio .secContainer3 {
     gap: 3rem;
   }
-  .portifolio .secContainer .leftContent .secHeading h3 {
+  .portifolio .secContainer3 .leftContent .secHeading h3 {
     font-size: 2rem;
   }
-  .portifolio .secContainer .leftContent .secHeading p {
+  .portifolio .secContainer3 .leftContent .secHeading p {
     font-size: var(--h3FontSize);
   }
-  .portifolio .secContainer .leftContent .grid {
+  .portifolio .secContainer3 .leftContent .grid {
     gap: 2.5rem;
     margin-top: 3rem;
   }
-  .portifolio .secContainer .leftContent .grid .singlePortifolio {
+  .portifolio .secContainer3 .leftContent .grid .singlePortifolio {
     gap: 2rem;
   }
 }/*# sourceMappingURL=Portifolio.css.map */

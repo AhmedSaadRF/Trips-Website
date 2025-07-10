@@ -26,7 +26,7 @@
 .middle {
   width: 100%;
 
-  .secContainer {
+  .secContainer1 {
     .grid {
       padding: 3rem;
       border-radius: var(--borderRadius);
@@ -58,7 +58,7 @@
 
 @media screen and (min-width: 640px) {
   .middle {
-    .secContainer {
+    .secContainer1 {
       .grid {
         grid-template-columns: repeat(3, 1fr);
       }
@@ -68,7 +68,7 @@
 
 @media screen and (min-width: 800px) {
   .middle {
-    .secContainer {
+    .secContainer1 {
       .grid {
         grid-template-columns: repeat(4, 1fr);
       }

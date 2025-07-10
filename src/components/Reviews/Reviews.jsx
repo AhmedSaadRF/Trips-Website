@@ -10,7 +10,7 @@ import image5 from '../../Assets/client.jpg'
 export default function Reviews() {
   return (
     <div className='review section container'>
-      <div className="secContainer grid">
+      <div className="secContainer4 grid">
         <div className="textDiv">
           <span className="redText">FROM OUR CLIENTS</span>
           <h3>Real Travel History From Our Beloved Clients</h3>

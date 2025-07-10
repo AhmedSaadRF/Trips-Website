@@ -24,7 +24,7 @@
 }
 
 .destination {
-  .secContainer {
+  .secContainer2 {
     .redText {
       color: var(--primaryColor);
       font-size: var(--smallFontSize);
@@ -159,7 +159,7 @@
 
 @media screen and (min-width: 520px) {
   .destination {
-    .secContainer {
+    .secContainer2 {
       .searchField {
         grid-template-columns: repeat(2, 1fr);
       }
@@ -173,7 +173,7 @@
 
 @media screen and (min-width: 640px) {
   .destination {
-    .secContainer {
+    .secContainer2 {
       .secMenu {
         display: block;
 
@@ -209,7 +209,7 @@
 
 @media screen and (min-width: 1014px) {
   .destination {
-    .secContainer {
+    .secContainer2 {
       .secTitle {
         .redText {
           font-size: var(--normalFontSize);
@@ -253,7 +253,7 @@
 
 @media screen and (min-width: 1148px) {
   .destination {
-    .secContainer {
+    .secContainer2 {
       .secTitle {
         h3 {
           font-size: var(--biggestFontSize);
@@ -273,7 +273,7 @@
 
 @media screen and (min-width: 1400px) {
   .destination {
-    .secContainer {
+    .secContainer2 {
       .destinationContainer {
         grid-template-columns: repeat(4, 1fr);
       }

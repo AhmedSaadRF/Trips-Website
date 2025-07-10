@@ -9,7 +9,7 @@ export default function Questions() {
       <div className="secHeading">
         <h3>Frequently Asked Questions</h3>
       </div>
-      <div className="secContainer grid">
+      <div className="secContainer5 grid">
         <div className="accordion grid">
           <Accordion 
             title="How do I choose the right travel destination for me?" 

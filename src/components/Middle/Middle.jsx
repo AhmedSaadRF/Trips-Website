@@ -4,7 +4,7 @@ import "./Middle.css"
 export default function Middle() {
   return (
     <div className='middle section'>
-      <div className='secContainer container'>
+      <div className='secContainer1 container'>
         <div className="grid">
           <span className="flex">
             <h1>10</h1>

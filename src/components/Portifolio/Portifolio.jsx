@@ -8,7 +8,7 @@ import image from '../../Assets/image.jpg'
 export default function Portifolio() {
   return (
     <div className='portifolio section container'>
-      <div className="secContainer grid">
+      <div className="secContainer3 grid">
         <div className="leftContent">
           <div className="secHeading">
             <h3>Why Should You Choose Us</h3>

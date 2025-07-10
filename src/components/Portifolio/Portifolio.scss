@@ -24,7 +24,7 @@
 }
 
 .portifolio {
-  .secContainer {
+  .secContainer3 {
     gap: 2rem;
 
     .leftContent {
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 480px) {
   .portifolio {
-    .secContainer {
+    .secContainer3 {
       grid-template-columns: repeat(1, 1fr);
 
       .leftContent {
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 660px) {
   .portifolio {
-    .secContainer {
+    .secContainer3 {
       .leftContent {
         .secHeading {
           h3 {
@@ -150,7 +150,7 @@
 
 @media screen and (min-width: 820px) {
   .portifolio{
-    .secContainer{
+    .secContainer3{
       grid-template-columns: repeat(2, 1fr);
 
       .leftContent{
@@ -184,7 +184,7 @@
 
 @media screen and (min-width: 1240px) {
   .portifolio{
-    .secContainer{
+    .secContainer3{
       gap: 3rem;
 
       .leftContent{

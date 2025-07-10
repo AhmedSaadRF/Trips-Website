@@ -42,7 +42,8 @@ If you are developing a production application, we recommend using TypeScript wi
 25_Finish Portifolio Section Media Quiries Style.  
 26_Finish Reviews Section Media Quiries Style.  
 27_Finish Questions Section Media Quiries Style.  
-27_Finish Subscribe Section Media Quiries Style.  
+28_Finish Subscribe Section Media Quiries Style.  
+29_Finish Footer Section Media Quiries Style.  
 
 
 

@@ -44,6 +44,7 @@ If you are developing a production application, we recommend using TypeScript wi
 27_Finish Questions Section Media Quiries Style.  
 28_Finish Subscribe Section Media Quiries Style.  
 29_Finish Footer Section Media Quiries Style.  
+30_Finish Home Section Animation.  
 
 
 

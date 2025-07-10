@@ -36,6 +36,8 @@ If you are developing a production application, we recommend using TypeScript wi
 19_Finish Footer Section.  
 20_Finish Footer Section Style.  
 21_Finish NavBar Section Media Quiries Style.  
+22_Finish Home Section Media Quiries Style.  
+
 
 
 

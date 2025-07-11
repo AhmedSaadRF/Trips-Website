@@ -15,7 +15,7 @@ import 'aos/dist/aos.css'
 import { AiOutlineSwapRight } from 'react-icons/ai'
 
 export default function Home() {
-  useEffect(() => { 
+  useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
   return (
@@ -27,10 +27,12 @@ export default function Home() {
       <div className='sectionText'>
         <h1 data-aos="fade-up">Unlock Your Travel Dreams With Us!</h1>
         <p data-aos="fade-up">Discover the world&#39;s most adventurous nature, life is so short for a trip.</p>
-        <button className='btn flex' data-aos="fade-up">
-          GET STARTED
-          <AiOutlineSwapRight className='icon' />
-        </button>
+        <div className="btnx" data-aos="fade-up">
+          <button className='btn btn1 flex'>
+            GET STARTED
+            <AiOutlineSwapRight className='icon' />
+          </button>
+        </div>
       </div>
 
       <div className="popularPlaces">
@@ -47,4 +49,5 @@ export default function Home() {
     </div>
   )
 }
+
 

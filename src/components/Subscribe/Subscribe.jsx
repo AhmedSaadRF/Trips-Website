@@ -15,7 +15,7 @@ export default function Subscribe() {
         <div className="textDiv">
           <h4 data-aos="fade-up">Best Way To Start Your Journey!</h4>
           <p data-aos="fade-up">We offer personalized itineraries tailored to individual preferences and interests.</p>
-          <button className='btn'>Start Here</button>
+          <button className='btn' data-aos="fade-up">Start Here</button>
         </div>
       </div>
     </div>

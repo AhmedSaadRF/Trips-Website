@@ -106,8 +106,10 @@
         border-radius: 10px;
       }
 
-      .btn{
-        transition: all 0.3s ease-in-out; 
+      .btnx {
+        .btn4 {
+          width: 100%;
+        }
       }
     }
   }
@@ -143,29 +145,29 @@
         font-size: var(--h2FontSize);
       }
 
-      p{
+      p {
         font-size: var(--normalFontSize);
       }
     }
 
-    .secContainer5{
+    .secContainer5 {
       grid-template-columns: repeat(2, 1fr);
       align-items: flex-start;
       gap: 2rem;
 
-      .form{
-        .formContent{
+      .form {
+        .formContent {
           input,
-          textarea{
+          textarea {
             font: var(--normalFontSize);
 
-            &::placeholder{
+            &::placeholder {
               font-size: var(--normalFontSize);
               color: var(--blackColor);
             }
           }
 
-          textarea{
+          textarea {
             height: 100px;
             border-radius: 10px;
           }
@@ -176,40 +178,41 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .accordionContainer{
-    .title{
+  .accordionContainer {
+    .title {
       font-size: var(--h3FontSize);
 
-      h3{
-        .icon{
+      h3 {
+        .icon {
           font-size: 1.5rem;
         }
       }
     }
 
-    .description{
+    .description {
       font-size: var(--normalFontSize);
     }
 
-    .show{
+    .show {
       height: 150px;
     }
   }
 
-  .questions{
-    .secHeading{
+  .questions {
+    .secHeading {
       h3,
-      h4{
+      h4 {
         font-size: 1.5rem;
       }
 
-      p{
+      p {
         font-size: var(--h3FontSize);
       }
     }
 
-    .secContainer5{
+    .secContainer5 {
       gap: 3rem;
     }
   }
 }
+

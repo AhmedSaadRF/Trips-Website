@@ -63,6 +63,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
+        transition: all 0.3s ease-in-out;
       }
     }
 
@@ -186,10 +187,11 @@
           li {
             background: transparent;
             padding: 10px 17px;
-            border-radius: var(--borderRadius);
+            border-radius: var(--borderRadius); 
             color: var(--blackColor);
             border: 1.5px dashed transparent;
             cursor: pointer;
+            transition: all 0.3s ease-in-out;
 
             &:hover {
               color: var(--primaryColor);

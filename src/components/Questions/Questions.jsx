@@ -1,11 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import "./Questions.css"
 import Accordion from './Accordion'
 
 export default function Questions() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
+
   const [active, setActive] = useState("How do I choose the right travel destination for me?");
   return (
-    <div className='questions section container'>
+    <div className='questions section container'> 
       <div className="secHeading">
         <h3>Frequently Asked Questions</h3>
       </div>
@@ -38,13 +44,13 @@ export default function Questions() {
         </div>
         <div className="form">
           <div className="secHeading">
-            <h4>Do you have any specific question?</h4>
-            <p>Please fill the form below and our dedicated team will get intouch with you as soon as possible.</p>
+            <h4 data-aos="fade-up">Do you have any specific question?</h4>
+            <p data-aos="fade-up">Please fill the form below and our dedicated team will get intouch with you as soon as possible.</p>
           </div>
           <div className="formContent grid">
-            <input type="email" placeholder='Enter email address' />
-            <textarea placeholder='Enter your quetion here'></textarea>
-            <button className='btn'>Submit Inquiry</button>
+            <input type="email" placeholder='Enter email address' data-aos="fade-up" />
+            <textarea placeholder='Enter your quetion here' data-aos="fade-up"></textarea>
+            <button className='btn' data-aos="fade-up">Submit Inquiry</button>
           </div>
         </div>
       </div>

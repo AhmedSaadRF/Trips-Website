@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import "./Footer.css"
 import { BiLogoMediumOld } from 'react-icons/bi'
 import { ImFacebook } from 'react-icons/im'
@@ -6,21 +8,24 @@ import { BsTwitter } from 'react-icons/bs'
 import { AiFillInstagram } from 'react-icons/ai'
 
 export default function Footer() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
     <div className='footer'>
       <div className="secContainer container grid">
         <div className="logoDiv">
-          <div className="footerLogo">
+          <div className="footerLogo" data-aos="fade-up">
             <BiLogoMediumOld className='icon' />
             <span>OU-Trips</span>
           </div>
-          <div className="socials flex">
+          <div className="socials flex" data-aos="fade-up">
             <ImFacebook className='icon' />
             <BsTwitter className='icon' />
             <AiFillInstagram className='icon' />
           </div>
         </div>
-        <div className="footerLinks">
+        <div className="footerLinks" data-aos="fade-up">
           <span className="linkTitle">Information</span>
           <li>
             <a href="#">Home</a>
@@ -35,7 +40,7 @@ export default function Footer() {
             <a href="#">Blog</a>
           </li>
         </div>
-        <div className="footerLinks">
+        <div className="footerLinks" data-aos="fade-up">
           <span className="linkTitle">Helpful Links</span>
           <li>
             <a href="#">Destinations</a>
@@ -50,7 +55,7 @@ export default function Footer() {
             <a href="#">Privacy</a>
           </li>
         </div>
-        <div className="footerLinks">
+        <div className="footerLinks" data-aos="fade-up">
           <span className="linkTitle">Contact Details</span>
           <span className="phone">+201063596560</span>
           <span className="email">ahmedsaadalrefaey7@gmail.com</span>
@@ -58,6 +63,6 @@ export default function Footer() {
       </div>
     </div >
   )
-}
+} 
 
 

@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import "./Destinations.css"
 import { MdLocationPin } from 'react-icons/md'
 import { BsFillCalendarDateFill, BsFillCreditCardFill } from 'react-icons/bs'
@@ -73,39 +75,42 @@ const destinations = [
 ]
 
 export default function Destinations() {
+  useEffect(() => {
+      AOS.init({ duration: 2000 })
+    }, [])
   return (
     <div className='destination section container'>
       <div className="secContainer2">
         <div className="secTitle">
-          <span className="redText">EXPLORE NOW</span>
-          <h3>Find Your Dream Destination</h3>
-          <p>Fill in the fields below to find the best spot for your next tour.</p>
+          <span className="redText" data-aos="fade-up">EXPLORE NOW</span>
+          <h3 data-aos="fade-up">Find Your Dream Destination</h3>
+          <p data-aos="fade-up">Fill in the fields below to find the best spot for your next tour.</p>
         </div>
 
         <div className="searchField grid">
-          <div className="inputField flex">
+          <div className="inputField flex" data-aos="fade-up">
             <MdLocationPin className="icon" />
             <input type="text" placeholder='Location' />
           </div>
 
-          <div className="inputField flex">
+          <div className="inputField flex" data-aos="fade-up">
             <BsFillCreditCardFill className="icon" />
             <input type="text" placeholder='Budget' />
           </div>
 
-          <div className="inputField flex">
+          <div className="inputField flex" data-aos="fade-up">
             <BsFillCalendarDateFill className="icon" />
             <input type="text" placeholder='Date' />
           </div>
 
-          <button className='btn flex'>
+          <button className='btn flex' data-aos="fade-up">
             <BiSearchAlt className='icon' />
             Search
           </button>
         </div>
 
         <div className="secMenu">
-          <ul className="flex">
+          <ul className="flex" data-aos="fade-up"> 
             <li className='active'>All</li>
             <li>Recommended</li>
             <li>Beach</li>
@@ -118,7 +123,7 @@ export default function Destinations() {
         <div className="destinationContainer grid">
           {destinations.map(destination => {
             return (
-              <div className="singleDestination" key={destination}>
+              <div className="singleDestination" key={destination} data-aos="fade-up">
                 <div className="imgDiv">
                   <img src={destination.img} alt="Destination Image" />
                   <div className="descInfo flex">

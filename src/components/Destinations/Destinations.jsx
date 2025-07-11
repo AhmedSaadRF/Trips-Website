@@ -76,8 +76,8 @@ const destinations = [
 
 export default function Destinations() {
   useEffect(() => {
-      AOS.init({ duration: 2000 })
-    }, [])
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
     <div className='destination section container'>
       <div className="secContainer2">
@@ -103,14 +103,16 @@ export default function Destinations() {
             <input type="text" placeholder='Date' />
           </div>
 
-          <button className='btn flex' data-aos="fade-up">
-            <BiSearchAlt className='icon' />
-            Search
-          </button>
+          <div className="btnx" data-aos="fade-up">
+            <button className='btn btn2 flex'>
+              <BiSearchAlt className='icon' />
+              Search
+            </button>
+          </div>
         </div>
 
         <div className="secMenu">
-          <ul className="flex" data-aos="fade-up"> 
+          <ul className="flex" data-aos="fade-up">
             <li className='active'>All</li>
             <li>Recommended</li>
             <li>Beach</li>

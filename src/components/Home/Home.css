@@ -58,6 +58,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: var(--h3FontSize);
+  transition: all 0.3s ease-in-out;
 }
 .Home .popularPlaces {
   display: none;
@@ -154,4 +155,4 @@
        object-fit: cover;
     border-radius: 10px;
   }
-}/*# sourceMappingURL=Home.css.map */
+}/*# sourceMappingURL=Home.css.map */ 

@@ -65,6 +65,7 @@
     padding: 1rem 0;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
   .navBar .menu li:hover {
     color: var(--primaryColor);
@@ -124,4 +125,4 @@
   .navBar {
     padding: 2rem 14rem;
   }
-}/*# sourceMappingURL=Navbar.css.map */
+}/*# sourceMappingURL=Navbar.css.map */ 

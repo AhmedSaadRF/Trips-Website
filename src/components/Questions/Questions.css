@@ -14,7 +14,7 @@
   --h2FontSize: 1.25rem;
   --h3FontSize: 1rem;
   --normalFontSize: 1rem;
-  --smallFontSize: 0.813rem; 
+  --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
   --borderRadius: 3rem;
 }
@@ -91,8 +91,8 @@
   height: 100px;
   border-radius: 10px;
 }
-.questions .form .formContent .btn {
-  transition: all 0.3s ease-in-out;
+.questions .form .formContent .btnx .btn4 {
+  width: 100%;
 }
 
 @media screen and (min-width: 640px) {

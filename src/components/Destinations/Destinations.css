@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --primaryColor: hsl(14, 90%, 53%);
   --primaryColorLight: hsl(14, 96%, 91%);
@@ -46,7 +46,7 @@
 .destination .secContainer2 .searchField .inputField .icon {
   color: var(--blackColor);
 }
-.destination .secContainer2 .searchField .btn {
+.destination .secContainer2 .searchField .btnx .btn2 {
   gap: 0.5rem;
   margin: auto;
   width: 100%;
@@ -70,6 +70,7 @@
   position: relative;
   height: 100%;
   width: 100%;
+  cursor: pointer;
 }
 .destination .secContainer2 .destinationContainer .singleDestination .imgDiv img {
   height: 100%;

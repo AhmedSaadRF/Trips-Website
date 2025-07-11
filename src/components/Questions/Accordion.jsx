@@ -13,7 +13,7 @@ function Accordion({ title, desc, active, setActive }) {
       <span className={(active === title ? ' activeTitle ' : '') + " title" + " flex"}>
         {title}
         <span onClick={() => setActive(title)}>
-          {active !== title ? ( 
+          {active === title ? ( 
             <BsArrowUpCircle className='icon' />
           ) : (
             <BsArrowDownCircle className='icon' />

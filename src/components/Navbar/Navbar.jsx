@@ -27,10 +27,10 @@ export default function Navbar() {
 
       <div className={navBar}>
         <ul>
-          <li className='navList'>Destination</li>
-          <li className='navList'>About Us</li>
-          <li className='navList'>Testimonial</li>
-          <li className='navList'>Gallery</li>
+          <li className='navList' style={{transition: "all 0.3s ease-in-out"}}>Destination</li>
+          <li className='navList' style={{transition: "all 0.3s ease-in-out"}}>About Us</li>
+          <li className='navList' style={{transition: "all 0.3s ease-in-out"}}>Testimonial</li>
+          <li className='navList' style={{transition: "all 0.3s ease-in-out"}}>Gallery</li>
         </ul>
         {/* Icon to remove Navbar */}
         <AiFillCloseCircle className='icon closeIcon' onClick={removeNavBar}/>
@@ -42,4 +42,5 @@ export default function Navbar() {
     </div>
   )
 }
+
 

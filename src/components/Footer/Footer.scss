@@ -60,6 +60,8 @@
           border-radius: 50%;
           padding: 8px;
           color: var(--whiteColor);
+          transition: all 0.3s ease-in-out;
+
           &:hover{
             background: var(--primaryColorLight);
           }
@@ -122,3 +124,4 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+

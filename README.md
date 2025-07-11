@@ -47,6 +47,7 @@ If you are developing a production application, we recommend using TypeScript wi
 30_Finish Home Section Animation.  
 31_Finish Middle Section Animation.  
 32_Finish Destinations Section Animation.  
+33_Finish Portifolio Section Animation.  
 
 
 
